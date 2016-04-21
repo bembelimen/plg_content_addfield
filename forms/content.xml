@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form>
-	<fields name="params" addfieldpath="/plugins/content/fieldsadd/fields">
+	<fields name="attribs" addfieldpath="/plugins/content/fieldsadd/fields">
 		<fieldset name="params">
 			<field
 				name="userlist"
