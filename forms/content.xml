@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="params" addfieldpath="/plugins/content/fieldsadd/fields">
+		<fieldset name="params">
+			<field
+				name="userlist"
+				type="userlist"
+				label="PLG_CONTENT_FIELDSADD_USER"
+				description="PLG_CONTENT_FIELDSADD_USER_DESC"
+				multiple="true"
+			>
+				<option value="0">PLG_CONTENT_FIELDSADD_USER_NO_USER</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>

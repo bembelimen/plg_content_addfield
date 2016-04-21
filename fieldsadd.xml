@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="content" method="upgrade">
+	<name>plg_content_fieldsadd</name>
+	<author>Tobias Zulauf</author>
+	<creationDate>04/2016</creationDate>
+	<copyright>Copyright (C) 2013 - 2016 Tobias Zulauf (jah-tz.de). All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>kontakt@jah-tz.de</authorEmail>
+	<authorUrl>www.jah-tz.de</authorUrl>
+	<version>3-1</version>
+	<description><![CDATA[PLG_CONTENT_FIELDSADD_XML_DESCRIPTION]]></description>
+	<files>
+		<filename plugin="fieldsadd">fieldsadd.php</filename>
+		<folder>language</folder>
+		<folder>fields</folder>
+		<folder>forms</folder>
+	</files>
+	<config>
+	</config>
+</extension>
