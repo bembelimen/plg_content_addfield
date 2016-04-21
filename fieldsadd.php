@@ -57,7 +57,7 @@ class plgContentFieldsAdd extends JPlugin
 	 */
 	public function onContentBeforeDisplay($context, &$row, &$params, $page = 0)
 	{
-		// Hier möchte ich den wert abfragen. Sollte ja eigentlich im $params drinstehen oder?
+		// Hier mÃ¶chte ich den wert abfragen. Sollte ja eigentlich im $params drinstehen oder?
 	}
 
 	/**
@@ -76,11 +76,8 @@ class plgContentFieldsAdd extends JPlugin
 
 		if ($option == 'com_content')
 		{
-				if ($this->app->isAdmin())
-				{
-					JForm::addFormPath(__DIR__ . '/forms');
-					$form->loadFile('content', false);
-				}
+			JForm::addFormPath(__DIR__ . '/forms');
+			$form->loadFile('content', false);
 		}
 
 		return true;
